@@ -1,0 +1,19 @@
+{
+  "name": "beamer",
+  "private": true,
+  "engines": {
+    "node": ">=22.10.0",
+    "pnpm": ">=9.14.3"
+  },
+  "scripts": {
+    "clean": "git clean -xdf node_modules",
+    "clean:ws": "turbo run clean",
+    "postinstall": "pnpm lint:ws",
+    "typecheck": "turbo run typecheck"
+  },
+  "packageManager": "pnpm@10.0.0",
+  "devDependencies": {
+    "turbo": "^2.3.3",
+    "typescript": "catalog:"
+  }
+}
