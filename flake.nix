@@ -22,6 +22,10 @@
             typescript-language-server
             vscode-langservers-extracted
           ];
+
+          shellHook = ''
+            export NODE_OPTIONS="--experimental-strip-types"
+          '';
         };
       });
 }

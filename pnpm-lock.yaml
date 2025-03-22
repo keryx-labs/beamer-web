@@ -16,7 +16,7 @@ catalogs:
       specifier: ^9.19.0
       version: 9.22.0
     prettier:
-      specifier: ^3.4.2
+      specifier: ^3.5
       version: 3.5.3
     tailwindcss:
       specifier: ^4

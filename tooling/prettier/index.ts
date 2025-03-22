@@ -1,9 +1,6 @@
-/** @typedef {import("prettier").Config} PrettierConfig */
-/** @typedef {import("prettier-plugin-tailwindcss").PluginOptions} TailwindConfig */
-/** @typedef {import("@ianvs/prettier-plugin-sort-imports").PluginConfig} SortImportsConfig */
+import { type Config } from "prettier";
 
-/** @type { PrettierConfig | SortImportsConfig | TailwindConfig } */
-const config = {
+export default {
   plugins: [
     import.meta.resolve("@ianvs/prettier-plugin-sort-imports"),
     import.meta.resolve("prettier-plugin-tailwindcss"),
@@ -39,6 +36,4 @@ const config = {
       },
     },
   ],
-};
-
-export default config;
+} satisfies Config;
