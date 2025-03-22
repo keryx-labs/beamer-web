@@ -28,11 +28,11 @@
     "@beamer/prettier-config": "workspace:*",
     "@beamer/tsconfig": "workspace:*",
     "@tailwindcss/postcss": "catalog:",
+    "@types/node": "^22.10.10",
     "@types/react": "catalog:react19",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "tailwindcss": "catalog:",
     "typescript": "catalog:"
-  },
-  "prettier": "@beamer/prettier-config"
+  }
 }

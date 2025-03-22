@@ -131,6 +131,9 @@ importers:
       '@tailwindcss/postcss':
         specifier: 'catalog:'
         version: 4.0.15
+      '@types/node':
+        specifier: ^22.10.10
+        version: 22.13.11
       '@types/react':
         specifier: catalog:react19
         version: 19.0.12

@@ -30,6 +30,5 @@
     "prettier": "catalog:",
     "tailwindcss": "catalog:",
     "typescript": "catalog:"
-  },
-  "prettier": "@beamer/prettier-config"
+  }
 }
