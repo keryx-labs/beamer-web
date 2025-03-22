@@ -1,0 +1,35 @@
+{
+  "name": "@beamer/dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "clean": "git clean -xdf .cache .next .turbo node_modules",
+    "dev": "next dev --turbopack",
+    "format": "prettier --check . --ignore-path ../../.gitignore",
+    "lint": "eslint",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@beamer/ui": "workspace:*",
+    "next": "15.2.3",
+    "react": "catalog:react19",
+    "react-dom": "catalog:react19"
+  },
+  "devDependencies": {
+    "@beamer/eslint-config": "workspace:*",
+    "@beamer/prettier-config": "workspace:*",
+    "@beamer/tsconfig": "workspace:*",
+    "@eslint/eslintrc": "catalog:",
+    "@tailwindcss/postcss": "catalog:",
+    "@types/node": "^22.10.10",
+    "@types/react": "catalog:react19",
+    "@types/react-dom": "catalog:react19",
+    "eslint": "catalog:",
+    "prettier": "catalog:",
+    "tailwindcss": "catalog:",
+    "typescript": "catalog:"
+  },
+  "prettier": "@beamer/prettier-config"
+}
