@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import "@beamer/ui/theme.css";
+
+@source "../../node_modules/@beamer/ui";
+
+@theme {
+  --font-sans:
+    "aktiv-grotesk", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
